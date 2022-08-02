@@ -96,6 +96,14 @@ main {
 	inline-size: 10rem;
 }
 
+.avatar-icon {
+	aspect-ratio: 1 / 1;
+	border: 1px solid currentColor;
+	border-radius: 50%;
+	inline-size: 10rem;
+	padding: 1em;
+}
+
 .logo {
 	inline-size: clamp(14rem, 4rem + 32vw, 28rem);
 	margin-block-end: 1em;
